@@ -56,7 +56,7 @@ static MBJSValue nd_err(MBJSContext *ctx, const char *what)
 static void *nd_handle(MBJSContext *ctx, MBJSValueConst v)
 {
     uint64_t h = 0;
-    if (!rt.ToBigUint64(ctx, &h, v))
+    if (rt.ToBigUint64(ctx, &h, v) != 0) /* 0 == success (QuickJS convention) */
         return (void *)-1;
     return (void *)(uintptr_t)h;
 }
