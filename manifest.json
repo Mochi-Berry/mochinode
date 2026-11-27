@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "layer": "package",
   "description": "MochiBerry module mochinode",
-  "status": "unknown",
+  "status": "verified",
   "entry": "./node_modules/src/index.js",
   "layers": {
     "js": "./node_modules/manifest.json",

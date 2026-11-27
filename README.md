@@ -4,7 +4,7 @@ MochiBerry module mochinode
 
 **MochiBerry module** — one package, one repo: JS layer (`node_modules/`) +
 native layer (`mochi_modules/`) + `manifest.json` at root and in both layers
-for the engine loader. Status: `unknown` · version `0.1.0` · native entry
+for the engine loader. Status: `verified` · version `0.1.0` · native entry
 `mbjs_init_module()`.
 
 ```
