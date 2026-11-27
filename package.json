@@ -1,0 +1,12 @@
+{
+  "name": "mochinode",
+  "version": "0.1.0",
+  "description": "MochiBerry module mochinode",
+  "main": "./node_modules/src/index.js",
+  "exports": {
+    ".": "./node_modules/src/index.js",
+    "./manifest": "./manifest.json"
+  },
+  "license": "MIT",
+  "private": false
+}

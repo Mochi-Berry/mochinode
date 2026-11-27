@@ -1,0 +1,21 @@
+{
+  "name": "mochinode",
+  "version": "0.1.0",
+  "layer": "package",
+  "description": "MochiBerry module mochinode",
+  "status": "unknown",
+  "entry": "./node_modules/src/index.js",
+  "layers": {
+    "js": "./node_modules/manifest.json",
+    "native": "./mochi_modules/manifest.json"
+  },
+  "abi_version": "MBC1",
+  "native_entry": "mbjs_init_module",
+  "runtime_exports": [],
+  "build": {
+    "engine_include": "$ENGINE_INC",
+    "lib_dir": "./mochi_modules/lib",
+    "output": "./mochi_modules/lib/mochinode_x86_64.dll",
+    "link_libs": []
+  }
+}

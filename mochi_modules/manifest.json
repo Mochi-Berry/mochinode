@@ -1,0 +1,24 @@
+{
+  "layer": "native_core",
+  "name": "mochinode",
+  "version": "0.1.0",
+  "abi_version": "MBC1",
+  "entry_point": "mbjs_init_module",
+  "status": "verified",
+  "targets": {
+    "x86_64-windows": "./lib/mochinode_x86_64.dll"
+  },
+  "exports": [
+    "load",
+    "unload",
+    "resolve",
+    "callVoid",
+    "callInt",
+    "callStr"
+  ],
+  "sources": [
+    "src/mochinode.c"
+  ],
+  "headers": [],
+  "layer_note": "Native loader/dynalib bridge (load/unload/resolve/call)."
+}
