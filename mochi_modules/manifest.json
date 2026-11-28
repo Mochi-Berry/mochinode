@@ -19,6 +19,9 @@
   "sources": [
     "src/mochinode.c"
   ],
-  "headers": [],
+  "headers": [
+    "include/mochinode.h",
+    "include/mochinode_abi.h"
+  ],
   "layer_note": "Native loader/dynalib bridge (load/unload/resolve/call)."
 }
